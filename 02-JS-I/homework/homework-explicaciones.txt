@@ -1,0 +1,10 @@
+Variables: Son contenedores en los que se pueden guardar valores, que pueden ser usados después. Por ejemplo, es como si fuera una hoja (contenedor), donde escribimos un número como nuestra edad (valor que contiene un tipo de dato número), que luego va a ser usada por un guardia de seguridad para determinar si podemos entrar o no a la fiesta (función). 
+
+Strings: Es un tipo de datos; es una secuencia o cadena de texto. Un valor puede adoptar un tipo de dato 'string' y se puede guardar en una variable. Siguiendo el ejemplo anterior, en otra hoja podríamos escribir nuestro nombre (valor que contiene un tipo de dato 'string'), el cual lo va a usar el guardia para ver si estamos en la lista de invitados, y en base a eso dejarnos pasar o no.
+
+Funciones (argumentos, return): Las funciones son una forma de empaquetar una parte de código la cual realiza una acción, y se pueden reusar varias veces en distintas partes del programa, "llamándolas" con el nombre de la función. Las funciones suelen usar argumentos, es decir, datos que necesita para poder hacer lo que hace. En el ejemplo del guardia, la función sería evaluar si la edad (argumento) es mayor que 18 para determinar si la persona puede entrar o no a la fiesta. Podríamos reusar el trabajo de este guardia en otra fiesta, donde realice la misma función.
+Cuando la función finaliza, puede retornar un resultado, que se llama "valor de retorno" o "return value". En nuestro ejemplo, el valor de retorno podría ser "dejar pasar".
+
+Declaraciones if: Es un condicional, es decir, una estructura de código que nos sirve para indicar si una expresión es verdadera o falsa, y hacer algo en función del resultado. Por ejemplo, el guardia usaria el condicional (if) para determinar SI la edad de la persona es mayor o igual a 18, y en base a eso lo deja pasar a la fiesta o no.
+
+Valores booleanos (true, false): Son variables que sólo pueden tener dos valores, verdadero o falso (en el caso de Javascript, porque podrían ser 0 o 1, encendido o apagado, etc). "La persona es mayor de 18 años? Verdadero."
